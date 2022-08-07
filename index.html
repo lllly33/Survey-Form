@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <h1 id="title">How much do you know about me</h1>
+    <p id="description">coded by LiuYuan</p>
+    <form action="" id="survey-form">
+        <!-- name -->
+        <label for="" id="name-label">
+            你的名字<input type="text" name="" id="name" placeholder="Enter your name" required>
+        </label>
+        <!-- email -->
+        <label for="" id="email-label">
+            我的性别
+            <select name="" id="dropdown">
+                <option value="">(请选择我的性别)</option>
+                <option value="">这有什么好选的？</option>
+                <option value="">谁出的题</option>
+                <option value="">乱出</option>
+                <option value="">站出来！</option>
+            </select>
+        </label>
+        <!-- num -->
+        <label for="" id="number-label">
+            我的年龄<input type="number" name="" id="number" min="8" max="16" placeholder="Age" >
+        </label>
+        <!-- select -->
+        <label for="" id="select-label">
+            <select name="" id="dropdown">
+                <option value="">(我最喜欢的电影)</option>
+                <option value="">《小时代》</option>
+                <option value="">《爱乐之城》</option>
+                <option value="">《末路狂花》</option>
+                <option value="">《逐梦演艺圈》</option>
+            </select>
+        </label>
+        <!-- radio buttom -->
+        <label for="" id="radio-label">
+            <div class="des">二选一环节</div>
+            <div class="qq">吃不吃香菜</div>
+            <label for=""> <input type="radio" name="favor" id="inline" value="apple">吃</label>
+            <label for=""> <input type="radio" name="favor" id="inline" value="orange">不吃</label>
+            <div class="qq">可口还是百事</div>
+            <label for=""> <input type="radio" name="favor" id="inline" value="apple">可口可乐</label>
+            <label for=""> <input type="radio" name="favor" id="inline" value="orange">百事可乐</label>
+            <div class="qq">我的电脑什么牌子</div>
+            <label for=""> <input type="radio" name="favor" id="inline" value="apple">戴尔</label>
+            <label for=""> <input type="radio" name="favor" id="inline" value="orange">联想</label>
+        </label>
+        <!-- cb -->
+        <label for="" id="checkbox-label">
+            <div class="des">请选择我的优良品质</div>
+            <label for=""><input type="checkbox" name="" id="inline" value="1">勤劳</label>
+            <label for=""><input type="checkbox" name="" id="inline" value="2">勇敢</label>
+            <label for=""><input type="checkbox" name="" id="inline" value="3">善良</label>
+            <label for=""><input type="checkbox" name="" id="inline" value="4">温和</label>
+            <label for=""> <input type="checkbox" name="" id="inline" value="5">踏实</label>
+        </label>
+        <label for="" id="textarea" >
+<textarea name="" id="" cols="30" rows="10" placeholder="对我的评价"></textarea>
+        </label>
+        <button id="button2">提交查看结果</button>
+    </form>
+    </div>
+
+</body>
+<script>
+    var btn = document.getElementById("button2");
+    btn.onclick =function(){
+        alert("点了也没用，后面的还没做！");
+    }
+</script>
+</html>
